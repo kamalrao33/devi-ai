@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <!-- Soft Baby Pink & Glowing Rose Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5f7" />
+      <stop offset="100%" stop-color="#ffe4ec" />
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fda4af" />
+      <stop offset="50%" stop-color="#fb7185" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbcfe8" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+
+    <linearGradient id="lotusCenter" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#fff0f5" />
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#fb7185" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Circular Base Badge -->
+  <circle cx="100" cy="100" r="92" fill="url(#bgGrad)" stroke="#f472b6" stroke-width="2.5" stroke-opacity="0.5" />
+
+  <!-- Shield Shape of Safety & Protection -->
+  <path d="M100 26 C135 26 168 38 168 76 C168 126 128 162 100 174 C72 162 32 126 32 76 C32 38 65 26 100 26 Z" 
+        fill="url(#shieldGrad)" filter="url(#softGlow)" opacity="0.95"/>
+
+  <!-- Inner Soft Pink Shield Layer -->
+  <path d="M100 36 C130 36 156 46 156 78 C156 120 122 152 100 162 C78 152 44 120 44 78 C44 46 70 36 100 36 Z" 
+        fill="url(#goldGlow)" opacity="0.85"/>
+
+  <!-- Sacred Lotus Blossom (Symbol of Care, Purity & Women's Health) -->
+  <!-- Left Outer Petal -->
+  <path d="M100 134 C72 125 58 98 64 78 C74 94 90 114 100 134 Z" fill="url(#lotusCenter)" opacity="0.9"/>
+  <!-- Right Outer Petal -->
+  <path d="M100 134 C128 125 142 98 136 78 C126 94 110 114 100 134 Z" fill="url(#lotusCenter)" opacity="0.9"/>
+
+  <!-- Left Inner Petal -->
+  <path d="M100 134 C82 120 74 88 84 66 C90 84 96 108 100 134 Z" fill="#ffffff" />
+  <!-- Right Inner Petal -->
+  <path d="M100 134 C118 120 126 88 116 66 C110 84 104 108 100 134 Z" fill="#ffffff" />
+
+  <!-- Center Heart & Core Petal -->
+  <path d="M100 134 C88 108 92 68 100 52 C108 68 112 108 100 134 Z" fill="#ffffff" filter="url(#softGlow)"/>
+
+  <!-- Golden Sparkle Crown -->
+  <circle cx="100" cy="50" r="4.5" fill="#ffd1dc" />
+  <circle cx="82" cy="62" r="3" fill="#ffffff" opacity="0.9" />
+  <circle cx="118" cy="62" r="3" fill="#ffffff" opacity="0.9" />
+</svg>
